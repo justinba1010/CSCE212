@@ -25,4 +25,5 @@ main:
 	add $t6, $t0, $t0 # 2i
 	add $t6, $t6, $t6 # 4i
 	add $t6, $s0, $t6 # address of A[i]
+	addi $t6, $t6, 4 # address of A[i+1]
 	sw $t4, 0($t6) # A[i] = g + A[12] + 1
