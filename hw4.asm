@@ -21,11 +21,11 @@ A:  .word 0x0
 .text
 	# Put 0.0 in FPNum
 	la $s5, A		# Load address of A
-#	la $s6, B		# Debug
+#	#la $s6, B		# Debug
 	add.s $f0, $f0, $f0	# a = 0.0
 	addi $s0, $zero, 10	# i = 10
 	jal Loop
-#	j Exit			# Debug
+#	#j Exit			# Debug
 
 Loop:
 	ble $s0, $zero, JR 	# When i <= 0 go to JR
