@@ -16,7 +16,14 @@ Each sub question worth 5
 Partial credit at most 3 points  
 If only conclusion, and conclusion is wrong 0 points  
 
+## Question 4 ()
+
+Multiplication  
+Division  
+Use the stupid algorithm
 
 
 
-### Very adamant do not draw emojis on final, he is very tired of them. :hankey:
+
+### Very adamant do not draw emojis on final, he is very tired of them. :hankey:  
+[Emojis used](https://gist.github.com/rxaviers/7360908)
