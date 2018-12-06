@@ -20,7 +20,8 @@ If only conclusion, and conclusion is wrong 0 points
 
 Multiplication  
 Division  
-Use the stupid algorithm
+***Use the stupid algorithm*** 
+Multiply a number less than 10, and a number less than 15
 
 
 
