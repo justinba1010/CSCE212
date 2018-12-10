@@ -5,16 +5,21 @@
 ### Dr. Song Wang
 
 .data
-FPNum: 		.word 0x0 # So I have a 0 to compare to and add
+FPNum:
+    .word 0x0 # So I have a 0 to compare to and add
 
-string1:	.asciiz "Input a Float-Point #:(0 indicates the end)\n"
-string2:	.asciiz "These are the numbers in order:\n"
-newline:	.asciiz "\n"
+string1:
+    .asciiz "Input a Float-Point #:(0 indicates the end)\n"
+string2:
+    .asciiz "These are the numbers in order:\n"
+newline:
+    .asciiz "\n"
 
-nums: 		.align 2
-		    .space 4000
-
+nums:
+    .align 2    # This is so we have an allotment of blocks positioned on every 2^2 byte, so lands on a multiple of a word
+    .space 4000
 .text
+
 main:	
     la $t0, FPNum
     la $s0, nums
